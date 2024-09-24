@@ -18,17 +18,29 @@ if (isAlive === true) {
 } else {
   console.log("you dont exist");
 }
-let i = 10;
-while (1 < arrays.length - 1) {
+let i = 0;
+while (i < arrays.length - 1) {
   i++;
   console.log(arrays[i]);
 }
 function greeting() {
-  console.log("hei)" + objecter.name + "!");
+  console.log("hei" + objects.name + "!");
 }
 
 let counter = 0;
+console.log(counter);
+
+function countdown() {
+  if (counter < 0) {
+    counter--;
+  }
+  console.log(counter);
+}
+
 function count() {
   console.log(counter);
   counter++;
 }
+let num1 = 5;
+let num2 = 5;
+let sum = num1 + num2;
