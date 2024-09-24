@@ -1,28 +1,34 @@
-console.log("hello world");
+let strings = " bla bla bla";
+let numbers = 123455;
+let boolean = true;
+let arrays = [1, 2, 3, 33, 34];
+let objects = {
+  name: "per harald",
+  age: 23,
+  isAlive: true,
+};
 
-let lives = 5;
+let isAlive = true;
+const navn = "per harald";
 
-lives++;
+if (isAlive === true) {
+  console.log("yippie!");
+} else if (!isAlive) {
+  console.log("dead");
+} else {
+  console.log("you dont exist");
+}
+let i = 10;
+while (1 < arrays.length - 1) {
+  i++;
+  console.log(arrays[i]);
+}
+function greeting() {
+  console.log("hei)" + objecter.name + "!");
+}
 
-const string = "monika monika monika";
-
-console.log(string);
-const boolean = true;
-
-console.log(boolean);
-
-const array = [
-  "mandag",
-  "tirsdag",
-  "onsdag",
-  "torsdag",
-  "fredag",
-  "lørdag",
-  "sondag",
-];
-
-const textElements = " detter_er_snake";
-
-document.querySelector("h1");
-
-console.log(array[2], array[6]);
+let counter = 0;
+function count() {
+  console.log(counter);
+  counter++;
+}
