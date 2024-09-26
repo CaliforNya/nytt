@@ -1,18 +1,19 @@
 body {
     background-color: darkslategrey;
     font-family: 'Courier New', Courier, monospace;
+
 }
 
 h1 {
-    font-size: 55px;
+
     color: deeppink;
     text-align: center;
 }
 
 p {
-    font-size: medium;
+
     color: greenyellow;
-    text-align: justify;
+    text-align: center;
 
 }
 
@@ -27,3 +28,17 @@ ul {
     color: hotpink;
     text-align: center;
 }
+
+.intro {
+    font-size: 25px;
+}
+
+.tekst {
+    font-size: 20px;
+}
+
+#title {
+    font-size: 55px;
+}
+
+/* maybe its to big, look at it later */
