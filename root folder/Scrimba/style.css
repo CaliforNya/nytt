@@ -1,20 +1,38 @@
 body {
     background-color: cadetblue;
     color: chartreuse;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 header {
 
-    color: deeppink;
-    text-align: center;
-    font-weight: bold;
     margin: 30px auto;
-    width: 200px;
-    padding: 20px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+
+
+
     border-top: yellow 5px double;
     border-bottom: yellow 5px solid;
-    font-size: 25px;
+    width: 1000px;
 
+
+
+    background-image: url(view.jpeg);
+    background-size: auto;
+    background-position: center calc(50% - 120px);
+    background-color: cadetblue;
+    background-repeat: no-repeat;
+}
+
+.hvor {
+    text-align: left;
+    color: deeppink;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 55px;
 }
 
 h1 {
@@ -72,9 +90,10 @@ footer {
     margin: 50px auto;
     padding: 20px;
     box-sizing: border-box;
-    width: 400px;
+    width: 700px;
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
+
 
 }
 

@@ -27,6 +27,7 @@ ul {
     font-size: medium;
     color: hotpink;
     text-align: center;
+    list-style-type: none;
 }
 
 .intro {
@@ -34,11 +35,27 @@ ul {
 }
 
 .tekst {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #title {
     font-size: 55px;
 }
 
-/* maybe its to big, look at it later */
+.foto {
+
+    width: 150px;
+
+    margin: 0px;
+
+
+
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
