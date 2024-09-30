@@ -1,0 +1,15 @@
+/Users/monikamichno/nytt-1/newProject/bin/Debug/net8.0/newProject
+/Users/monikamichno/nytt-1/newProject/bin/Debug/net8.0/newProject.deps.json
+/Users/monikamichno/nytt-1/newProject/bin/Debug/net8.0/newProject.runtimeconfig.json
+/Users/monikamichno/nytt-1/newProject/bin/Debug/net8.0/newProject.dll
+/Users/monikamichno/nytt-1/newProject/bin/Debug/net8.0/newProject.pdb
+/Users/monikamichno/nytt-1/newProject/obj/Debug/net8.0/newProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/monikamichno/nytt-1/newProject/obj/Debug/net8.0/newProject.AssemblyInfoInputs.cache
+/Users/monikamichno/nytt-1/newProject/obj/Debug/net8.0/newProject.AssemblyInfo.cs
+/Users/monikamichno/nytt-1/newProject/obj/Debug/net8.0/newProject.csproj.CoreCompileInputs.cache
+/Users/monikamichno/nytt-1/newProject/obj/Debug/net8.0/newProject.sourcelink.json
+/Users/monikamichno/nytt-1/newProject/obj/Debug/net8.0/newProject.dll
+/Users/monikamichno/nytt-1/newProject/obj/Debug/net8.0/refint/newProject.dll
+/Users/monikamichno/nytt-1/newProject/obj/Debug/net8.0/newProject.pdb
+/Users/monikamichno/nytt-1/newProject/obj/Debug/net8.0/newProject.genruntimeconfig.cache
+/Users/monikamichno/nytt-1/newProject/obj/Debug/net8.0/ref/newProject.dll
