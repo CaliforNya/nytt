@@ -1,5 +1,5 @@
 body {
-    background-image: url("photo/city12.jpg");
+    background-image: url("photo/city12.webp");
     background-size: cover;
     font-family: Chakra Petch;
     color: whitesmoke;
@@ -24,6 +24,15 @@ img:hover {
     transform: scale(2);
 }
 
+.imgtwo {
+    width: 200px;
+    height: auto;
+    border: 4px solid rgb(245, 198, 239);
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+
+}
+
 nav {
     background-color: rgba(0, 0, 0, 0.842);
     padding: 20px 0;
@@ -41,9 +50,15 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 30px auto;
+    margin: 30px;
 
+}
 
+.gallerytwo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
 }
 
 ul {
@@ -68,7 +83,16 @@ ul li {
 
 }
 
-li:hover {
+#nl-list {
+    display: block;
+    font-size: x-large;
+    list-style-type: circle;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+.with-hover:hover {
     transform: scale(2);
     color: hotpink;
 }
@@ -98,6 +122,7 @@ button {
     background-color: rgb(55, 182, 182);
     color: white;
     border: 2px solid black;
+    cursor: pointer;
 }
 
 button:hover {
@@ -115,13 +140,19 @@ input {
 
 .story {
     display: flex;
-    background-image: url("photo/city7.jpg");
+    background-image: url("photo/city7.webp");
     background-size: cover;
     margin: auto auto;
     width: 700px;
     height: auto;
     text-align: center;
     padding: 80px;
+
+}
+
+#story-text {
+    background-color: rgba(139, 0, 139, 0.5);
+
     font-size: 22px;
     font-style: bold;
 }
@@ -143,7 +174,7 @@ input {
     text-align: center;
     border-radius: 30px;
     border: 5px solid white;
-    background-image: url("photo/city11.jpg");
+    background-image: url("photo/city11.webp");
     background-position: calc(50%);
 
 }
@@ -169,4 +200,12 @@ h4 {
 #place {
     color: #060003;
     text-shadow: 2px 2px 5px white;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 10PX;
 }

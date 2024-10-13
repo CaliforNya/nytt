@@ -13,10 +13,10 @@
   <body>
     <nav>
   <ul>
-    <li> <a href="#story"> Story </a> </li>
-    <li> <a href="#gallery"> Gallery </a> </li>
-    <li> <a href="#guide"> Guide </a> </li>
-    <li> <a href="#newsletter"> Newsletter </a> </li>
+    <li class="with-hover"> <a href="#story"> Story </a> </li>
+    <li class="with-hover"> <a href="#gallery"> Gallery </a> </li>
+    <li class="with-hover"> <a href="#guide"> Guide </a> </li>
+    <li class="with-hover"> <a href="#newsletter"> Newsletter </a> </li>
   </ul>
 </nav>
 
@@ -35,7 +35,7 @@
 <h3 id="story">Story</h3>
 <div class="story">
 
-<p>
+<p id="story-text">
         Long ago, Duskveil was a thriving city bathed in the warm glow of the sun. It was a place of wonder, where light and magic intertwined, and its people lived in harmony with the world around them. But over time, a shadow began to creep across the city, as ancient forces stirred beneath its cobbled streets. Legends say that the city’s founders made a pact with an unknown force, a being of twilight and shadows, in exchange for power and protection.<br>
 
         At first, the sun and moon shared the sky in perfect balance, but as the city's thirst for knowledge and control grew, so did the pact’s dark influence. The whispers of this mysterious power grew louder, offering secrets and strength in return for the city’s loyalty. As the people delved deeper into forbidden magic and sought control over the unseen, the sun grew weary of their ambition and withdrew.<br>
@@ -48,10 +48,16 @@
 
     <h3 id="gallery">Gallery</h3>
     <div class="gallery">
-      <img src="photo/city1.jpg" alt=" city by night" />
-      <img src="photo/city3.jpg" alt=" city by night" />
-      <img src="photo/city4.jpg" alt=" city by night" />
-      <img src="photo/city9.jpg" alt=" city by night" />
+      <img src="photo/city1.webp" alt=" city by night" />
+      <img src="photo/city3.webp" alt=" city by night" />
+      <img src="photo/city4.webp" alt=" city by night" />
+      <img src="photo/city9.webp" alt=" city by night" />
+    </div>
+    <div class="gallerytwo">
+      <img class="imgtwo" src="photo/city2.webp" alt=" city by night" />
+      <img class="imgtwo" src="photo/city5.webp" alt=" city by night" />
+      <img class="imgtwo" src="photo/city6.webp" alt=" city by night" />
+      <img class="imgtwo" src="photo/city10.webp" alt=" city by night" />
     </div>
     <h3 id="guide">Guide</h3>
     <p>
@@ -74,18 +80,29 @@
      <p class="neon" id="place"> <strong> Duskveil, The other World </strong></p>
      </div>
 </div>
-
+<div class="btn">
     <input type="date" />
     <button>Book here</button>
+</div>
     
-    <h3 id="newsleter">Newsletter</h3>
+    <h3 id="newsletter" >Newsletter</h3>
     <p>
       Subscribe to the Duskveil Newsletter for exclusive updates, hidden
       stories, and magical insights straight from the heart of the city’s
       neon-lit mysteries.
     </p>
+
+    <ul id="nl-list">
+    <li> *Whispers of a hidden tour – for those brave enough<br></li>
+    <li> *Limited edition guides to Duskveil’s forgotten realms<br></li>
+    <li> *Behind the veil: What the sun never sees<br></li>
+    <li> *Exclusive invitation to join the "Midnight Wanderers"<br></li>
+    <li> *Rumors of strange happenings (don’t ask, just come)<br></li>
+</ul>
+<div class="btn">
     <input type="email" placeholder="Type your @ here ..... " />
-     <button>Sign up! </button>
+    <button>Sign up! </button>
+</div>
   </body>
   <link rel="stylesheet" href="style.css" />
 </html>
