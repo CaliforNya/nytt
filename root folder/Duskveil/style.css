@@ -1,5 +1,5 @@
 body {
-    background-image: url("photo/city12.webp");
+    background-image: url("photo/city12.jpg");
     background-size: cover;
     font-family: Chakra Petch;
     color: whitesmoke;
@@ -140,19 +140,20 @@ input {
 
 .story {
     display: flex;
-    background-image: url("photo/city7.webp");
+    background-image: url("photo/city7.jpg");
     background-size: cover;
     margin: auto auto;
     width: 700px;
     height: auto;
     text-align: center;
-    padding: 80px;
+    padding: 100px;
+
 
 }
 
 #story-text {
-    background-color: rgba(139, 0, 139, 0.5);
-
+    background-color: rgba(82, 5, 82, 0.748);
+    padding: 30px;
     font-size: 22px;
     font-style: bold;
 }
@@ -174,7 +175,7 @@ input {
     text-align: center;
     border-radius: 30px;
     border: 5px solid white;
-    background-image: url("photo/city11.webp");
+    background-image: url("photo/city11.jpg");
     background-position: calc(50%);
 
 }
