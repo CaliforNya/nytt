@@ -15,27 +15,28 @@ body {
 img {
     width: 300px;
     height: 180px;
-    border: 4px solid rgb(245, 198, 239);
-    border-radius: 10px;
+    border: 5px solid rgb(245, 198, 239);
+    border-radius: 20px;
     transition: transform 0.3s ease;
 }
 
 img:hover {
 
     transform: scale(2);
+    z-index: 1000;
 }
 
 .imgtwo {
     width: 200px;
-    height: auto;
-    border: 4px solid rgb(245, 198, 239);
-    border-radius: 10px;
+    height: 300px;
+    border: 5px solid rgb(245, 198, 239);
+    border-radius: 20px;
     transition: transform 0.3s ease;
 
 }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.842);
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 20px 0;
     position: fixed;
     display: flex;
@@ -127,7 +128,7 @@ button {
 }
 
 button:hover {
-    background-color: blueviolet;
+    background-color: deeppink;
 }
 
 input {
@@ -148,6 +149,7 @@ input {
     height: auto;
     text-align: center;
     padding: 100px;
+    border-radius: 20px;
 
 
 }
@@ -157,6 +159,7 @@ input {
     padding: 30px;
     font-size: 22px;
     font-style: bold;
+    border-radius: 20px;
 }
 
 #monika {
