@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href=" style.css" />
+    <style>
+      /* Load the seven-segment font from your local folder */
+      @font-face {
+        font-family: "SevenSegment";
+        src: url("seven segment.ttf") format("truetype"); /* Adjust path if needed */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="home">
+        <h3>HOME</h3>
+        <p id="resulth"></p>
+        <button class="btn" onclick="addOne()">+1</button>
+        <button class="btn" onclick="addTwo()">+2</button>
+        <button class="btn" onclick="addThree()">+3</button>
+      </div>
+
+      <div class="guest">
+        <h3>GUEST</h3>
+        <p id="resultg"></p>
+        <button class="btn" onclick="addOneg()">+1</button>
+        <button class="btn" onclick="addTwog()">+2</button>
+        <button class="btn" onclick="addThreeg()">+3</button>
+      </div>
+
+      <button class="ng-btn" onclick="newGame()">NEW GAME</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
