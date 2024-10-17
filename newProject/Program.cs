@@ -1,6 +1,7 @@
 ﻿using System.Reflection.Metadata.Ecma335;
 using System.Runtime.InteropServices.Marshalling;
 using System.Security.Cryptography;
+using System.Collections.Generic; 
 
 namespace newProject;
 
@@ -33,7 +34,19 @@ foreach (string frukt in fruktArray)
 { 
     Console.WriteLine(frukt);
 }
+List<string> fruktList= new List<string>();
 
+        fruktList.Add("blåbær");
+        fruktList.Add("eple");
+        fruktList.Add("banan");
+        fruktList.Add("appelsin");
+        fruktList.Add("kiwi");
+        fruktList.Add("pære");
+
+        foreach (string frukt in fruktList)
+        {
+            Console.WriteLine(frukt);
+        }
 
 }
 }
