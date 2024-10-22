@@ -97,7 +97,11 @@ ul li {
 
 .with-hover:hover {
     transform: scale(2);
-    color: hotpink;
+
+}
+
+.with-hover:focus {
+    color: deeppink;
 }
 
 h3 {

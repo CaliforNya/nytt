@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="bg-img" id="first">
+      <h2>I like train</h2>
+    </section>
+
+    <section class="information" id="one">
+      <h3>Background images</h3>
+      <article>
+        <div class="paragraph-container">
+          <p>
+            Bakgrunnsbilder vil som standard kun ta opp sin originale størrelse,
+            og deretter repetere seg selv, for å fylle ut resten av elementet.
+            <br />
+            Vi legger derfor til <br />
+            <code>background-repeat: no-repeat;</code>
+            og <br />
+            <code>background-size: cover;</code>
+            <br />
+            for at bakgrunnsbilde ikke skal repetere seg selv, men heller
+            strekke seg ut over elementet det tilhører
+          </p>
+        </div>
+
+        <div class="paragraph-container">
+          <p>
+            Ut i fra hva vi ønsker å gjøre med bildet, så kan vi også legge til
+            en <br />
+            <code>background-attachment: fixed;</code> <br />
+            for å oppnå en slags paralax effekt på siden. Da vil bildene være
+            satt i en "fixed" posisjon på siden, uavhengig av når bruker
+            scroller.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section class="bg-img" id="second"></section>
+    <section class="information"></section>
+
+    <section class="bg-img" id="third"></section>
+    <section class="information"></section>
+
+    <section class="bg-img" id="fourth"></section>
+    <section class="information"></section>
+
+    <section class="bg-img" id="fifth"></section>
+    <section class="information"></section>
+  </body>
+</html>
