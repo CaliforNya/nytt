@@ -1,3 +1,11 @@
+@media (max-aspect-ratio: 16/9) {
+    #container {
+        flex-direction: column;
+    }
+
+}
+
+
 * {
     box-sizing: border-box;
     margin: 20px 35px;
@@ -48,19 +56,16 @@ button {
 #sed-btn:active {
 
     background-color: hsl(31, 77%, 52%);
-    border: 2px solid white;
     color: white;
 }
 
 #suv-btn:active {
     background-color: hsl(184, 100%, 22%);
-    border: 2px solid white;
     color: white;
 }
 
 #lux-btn:active {
     background-color: hsl(179, 100%, 13%);
-    border: 2px solid white;
     color: white;
 
 }
@@ -107,6 +112,4 @@ p {
     overflow: hidden;
     width: 750px;
     height: 420px;
-
-
 }
