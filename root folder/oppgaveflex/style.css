@@ -28,11 +28,13 @@ button {
     font-family: Lexend Deca;
     margin-bottom: 15px;
     margin-top: 50px;
+    border: 2px solid white;
 }
 
 #sed-btn {
     color: hsl(31, 77%, 52%);
 }
+
 
 #suv-btn {
     color: hsl(184, 100%, 22%)
@@ -40,6 +42,26 @@ button {
 
 #lux-btn {
     color: hsl(179, 100%, 13%);
+
+}
+
+#sed-btn:active {
+
+    background-color: hsl(31, 77%, 52%);
+    border: 2px solid white;
+    color: white;
+}
+
+#suv-btn:active {
+    background-color: hsl(184, 100%, 22%);
+    border: 2px solid white;
+    color: white;
+}
+
+#lux-btn:active {
+    background-color: hsl(179, 100%, 13%);
+    border: 2px solid white;
+    color: white;
 
 }
 
