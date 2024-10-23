@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 20px 35px;
+
+}
+
+#sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+#suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+    margin-bottom: 50px;
+    width: 130px;
+    height: 40px;
+    border-radius: 60px;
+    border: none;
+    padding: 10px 20px;
+    font-family: Lexend Deca;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+#sed-btn {
+    color: hsl(31, 77%, 52%);
+}
+
+#suv-btn {
+    color: hsl(184, 100%, 22%)
+}
+
+#lux-btn {
+    color: hsl(179, 100%, 13%);
+
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    text-align: left;
+    font-family: Big Shoulders Display;
+    font-size: xx-large;
+    font-weight: 400;
+    margin-top: 5px;
+
+
+}
+
+p {
+    color: white;
+    text-align: left;
+    font-family: Lexend Deca;
+    font-size: small;
+    margin-top: 10px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height: 420px;
+    margin: 0 0;
+
+
+
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 750px;
+    height: 420px;
+
+
+}
