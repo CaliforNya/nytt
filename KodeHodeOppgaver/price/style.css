@@ -1,0 +1,125 @@
+body {
+    box-sizing: border-box;
+    font-family: Karla, sans-serif;
+    margin: 100px;
+    font-size: 16;
+}
+
+#one {
+    grid-area: one;
+    height: 200px;
+
+}
+
+#two {
+    background-color: hsl(179, 62%, 43%);
+    color: hsl(204, 43%, 93%);
+    grid-area: two;
+}
+
+#three {
+    background-color: hsl(179, 56%, 53%);
+    color: hsl(204, 43%, 93%);
+    grid-area: three;
+    color: hsl(177, 37%, 80%);
+}
+
+
+.box {
+    padding: 5px 40px 5px 40px;
+    height: auto;
+
+    /* border: 2px red solid; */
+
+
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "one one" "two three";
+    width: 650px;
+    /* border: 2px solid violet; */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3)
+}
+
+button {
+    height: 50px;
+    width: 225px;
+    border-radius: 8px;
+    background-color: hsl(71, 73%, 54%);
+    color: rgba(245, 245, 245, 0.905);
+    border: none;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+
+}
+
+#one h1 {
+    padding-top: 15px;
+    color: hsl(179, 62%, 43%);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+#one h2 {
+    color: hsl(71, 73%, 54%);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#one p {
+    color: hsl(218, 22%, 67%);
+    padding-bottom: -30px;
+}
+
+#two p {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#two h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#two h2,
+#three h2 {
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+#price {
+    font-size: 30px;
+}
+
+#per-month {
+    color: hsl(179, 47%, 62%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+    #container {
+
+        display: flex;
+        flex-direction: column;
+        width: 650px;
+
+    }
+
+}
