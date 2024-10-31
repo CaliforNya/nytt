@@ -1,5 +1,10 @@
-body {
+* {
     box-sizing: border-box;
+
+}
+
+body {
+
     font-family: Karla, sans-serif;
     margin: 100px;
 }
@@ -125,8 +130,6 @@ ul {
     .box {
         width: 100%;
         height: auto;
-        padding: 20px;
-        margin-left: 40px;
 
     }
 
@@ -137,7 +140,32 @@ ul {
     #one {
         min-height: 250px;
 
+
     }
 
+    #three {
+        padding-bottom: 20px;
+    }
+
+    #one h2 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    #one p,
+    ul {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 1.7;
+
+    }
+
+    #three {
+        color: rgb(238, 234, 234);
+    }
+
+    button {
+        width: 90%;
+    }
 
 }
