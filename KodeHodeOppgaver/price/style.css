@@ -139,6 +139,7 @@ ul {
 
     #one {
         min-height: 250px;
+        flex: 1;
 
 
     }
