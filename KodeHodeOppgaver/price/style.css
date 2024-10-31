@@ -118,8 +118,10 @@ ul {
 
         display: flex;
         flex-direction: column;
-        width: 650px;
+        max-width: 650px;
 
     }
+
+
 
 }
