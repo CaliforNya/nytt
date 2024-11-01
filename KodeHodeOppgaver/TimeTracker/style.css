@@ -65,7 +65,7 @@ header {
 
 #user-hd {
     width: auto;
-    height: auto;
+
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -78,7 +78,7 @@ header {
 }
 
 #under-user {
-    max-width: 250px;
+
     width: 100%;
     height: auto;
     display: flex;
@@ -210,13 +210,13 @@ h1 {
     main {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
     }
 
     div {
 
-        max-width: 90%;
+
         width: 100%;
         height: auto;
         display: flex;
@@ -235,7 +235,7 @@ h1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
-
+        padding-bottom: 10px;
         overflow: hidden;
 
     }
@@ -251,11 +251,57 @@ h1 {
     }
 
     .over p {
+        margin-top: 20px 10px 0 10px;
         font-size: 12px;
         /* grid-column: 2/3; */
     }
 
     #under-user {
         flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    #user-hd {
+        width: 100%;
+        height: 120px;
+        display: grid;
+        grid-template-columns: 30% 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "user report" "user jeremy";
+        align-items: center;
+        overflow: hidden;
+        padding: 0 20px;
+        height: 120px;
+
+    }
+
+
+    #report {
+        font-size: 14px;
+        font-weight: 300;
+        align-self: self-end;
+        margin-top: 30px;
+        grid-area: report;
+    }
+
+    #jeremy {
+        font-size: 20px;
+        font-weight: 300;
+        margin-top: 0px;
+        grid-area: jeremy;
+
+    }
+
+    #user {
+        grid-area: user;
+        margin-top: 20px;
+        justify-self: center;
+        width: 65px;
+        height: 65px;
+    }
+
+    header {
+        height: 40px;
     }
 }
