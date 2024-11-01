@@ -3,10 +3,15 @@
 
 }
 
-body {
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    margin: 0;
     font-family: Karla, sans-serif;
-    margin: 100px;
 }
 
 #one {
