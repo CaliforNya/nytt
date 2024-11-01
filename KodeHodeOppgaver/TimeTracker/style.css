@@ -261,8 +261,9 @@ h1 {
 
     .hours,
     .last {
-        display: block;
-        color: rgb(202, 37, 40);
+
+        color: rgb(119, 167, 223);
+        display: inline;
 
     }
 
