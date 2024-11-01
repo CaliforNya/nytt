@@ -258,8 +258,8 @@ h1 {
         grid-column: 2/3;
     }
 
-    .over h2,
-    .over p {
+    .hours,
+    .last {
         display: block;
         color: rgb(194, 112, 183);
 
