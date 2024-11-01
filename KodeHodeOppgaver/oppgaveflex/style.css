@@ -1,6 +1,7 @@
 @media (max-aspect-ratio: 16/9) and (max-width: 768px) {
     #container {
         flex-direction: column;
+        margin: 0 auto;
     }
 }
 
