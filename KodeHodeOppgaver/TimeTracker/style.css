@@ -258,6 +258,13 @@ h1 {
         grid-column: 2/3;
     }
 
+    .over h2,
+    .over p {
+        display: block;
+        color: rgb(194, 112, 183);
+
+    }
+
     #under-user {
         flex-direction: row;
         justify-content: space-around;
