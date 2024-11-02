@@ -262,9 +262,10 @@ h1 {
     .hours,
     .last {
 
-        color: rgb(81, 165, 98);
+
         display: inline;
         position: relative;
+        background-color: red;
 
     }
 
