@@ -14,8 +14,8 @@ body {
 
 main {
     /* border: 5px solid violet; */
-    max-width: 100%;
-    margin-top: auto auto;
+    max-width: 80%;
+    margin: auto auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
