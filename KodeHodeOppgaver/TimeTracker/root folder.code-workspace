@@ -1,0 +1,15 @@
+{
+  "folders": [
+    {
+      "name": "root folder",
+      "path": "../../root folder"
+    },
+    {
+      "name": "KodeHodeOppgaver",
+      "path": ".."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "root folder"
+  }
+}
