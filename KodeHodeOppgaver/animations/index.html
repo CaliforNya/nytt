@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>document/title>
+    <style>
+      .square {
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: left 2s cubic-bezier(1, -0.5, 0.8, 1.5);
+      }
+
+      .square.move {
+        left: 90%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="square"></div>
+
+    <script>
+      document.querySelector(".square").addEventListener("click", function () {
+        this.classList.toggle("move");
+      });
+    </script>
+  </body>
+</html>
