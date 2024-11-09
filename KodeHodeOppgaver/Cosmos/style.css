@@ -166,12 +166,13 @@ ul {
         margin: 0;
         overflow: hidden;
         justify-self: center;
+        align-self: center;
     }
 
     .content {
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+
         margin: 0;
         padding: 0;
 
@@ -180,7 +181,7 @@ ul {
     .photo1,
     .photo2 {
         width: 100%;
-
+        border: none;
         padding: 10px;
         margin-right: 10px;
 
