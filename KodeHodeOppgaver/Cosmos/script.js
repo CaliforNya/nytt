@@ -8,7 +8,8 @@ function cards(content) {
           <h2>PLANETS</h2>
           <div id="name" class="content">
             <p class="info">
-             Planets are large celestial bodies that orbit stars, such as the Sun. Our solar system has eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. They vary in size, composition, and distance from the Sun. Some, like Earth, support life, while others, like Jupiter, are gas giants. Planets have unique features such as atmospheres, moons, and rings. For example, Saturn’s iconic rings are made of ice and rock, and Mars has the tallest volcano in the solar system. Each planet plays a distinct role in the dynamics of our solar system.
+            Planets are large celestial bodies that orbit stars, such as the Sun. Our solar system has eight planets: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. These planets vary greatly in size, composition, and distance from the Sun. Some planets, like Earth, support life, while others, like Jupiter, are made mostly of gas. Planets feature diverse characteristics, including atmospheres, moons, and rings. For example, Saturn’s rings are iconic, while Jupiter’s Great Red Spot is a massive storm. Each planet’s unique features help shape the dynamics of the solar system.
+Planets also have different surface conditions, from the scorching heat of Venus to the icy cold of Neptune, making them fascinating subjects of study in astronomy.
             </p>
             <img class="photo1" src="./img/planets1.jpg" alt="planet earth seen from space" />
             <img class="photo2" src="./img/planet.jpg" alt="solar system" />
@@ -65,8 +66,9 @@ Galaxies are vast systems of stars, gas, dust, and dark matter, bound together b
         <div class="card">
           <h2>NEBULAE</h2>
           <div id="name" class="content">
-            <p class="info">
-Nebulae are vast clouds of gas and dust in space, often known as star nurseries. They come in different types, such as emission, reflection, and dark nebulae. Emission nebulae glow due to ionized gases, while reflection nebulae shine by reflecting light from nearby stars. Dark nebulae block light from stars behind them. Nebulae play a crucial role in star formation, with collapsing regions eventually creating new stars.These cosmic clouds are not only beautiful but essential for the ongoing evolution of galaxies.            </p>
+            <p class="info"> 
+            Nebulae are vast clouds of gas and dust in space, often known as star nurseries. They come in different types, such as emission, reflection, and dark nebulae. Emission nebulae glow due to ionized gases, while reflection nebulae shine by reflecting light from nearby stars. Dark nebulae block light from stars behind them. Nebulae play a crucial role in star formation, with collapsing regions eventually creating new stars. These cosmic clouds are not only beautiful but essential for the ongoing evolution of galaxies. Some nebulae, like the famous Orion Nebula, are visible to the naked eye, while others are far too distant to observe without advanced telescopes. The study of nebulae helps astronomers understand the processes that drive the birth and death of stars, offering insight into the dynamic life cycle of galaxies
+            </p>
             <img class="photo1" src="./img/nebulae1.jpg" alt="nebulae" />
             <img class="photo2" src="./img/nebulae.jpg" alt="nebulae" />
             <p class="trivia">
@@ -82,8 +84,8 @@ The largest known nebula, the Tarantula Nebula, spans over 1,000 light-years acr
         <div class="card">
           <h2> BLACK HOLES</h2>
           <div id="name" class="content">
-            <p class="info">
-Black holes are regions of space where gravity is so strong that nothing, not even light, can escape from them. They are formed when massive stars collapse under their own gravity at the end of their life cycle. The boundary around a black hole, called the event horizon, marks the point beyond which nothing can return. Black holes vary in size, from stellar black holes to supermassive ones found at the centers of galaxies. Their mysterious nature makes them one of the most intriguing cosmic phenomena.       </p>
+            <p class="info"> 
+Black holes are regions of space where gravity is so intense that not even light can escape. They form when massive stars collapse at the end of their life cycle, creating a singularity—a point of infinite density. The boundary surrounding a black hole, called the event horizon, is the point of no return. Black holes come in different sizes, from stellar black holes formed by collapsing stars to supermassive black holes found at the centers of galaxies. These cosmic giants can have millions or even billions of times the mass of our Sun. Their powerful gravitational pull influences the orbits of nearby stars and can even bend light, making them key players in the evolution of galaxies. Scientists continue to study black holes to better understand their role in the universe. </p>
      <img class="photo1" src="./img/blackhole1.jpg" alt="blackhole" />
             <img class="photo2" src="./img/blackhole.jpg" alt="blackhole" />
             <p class="trivia">
@@ -98,10 +100,11 @@ Black holes can "sing"! When two black holes merge, they release gravitational w
         <div class="card">
           <h2>ASTEROIDS</h2>
           <div id="name" class="content">
-            <p class="info">
-Asteroids are rocky objects that orbit the Sun, mostly found in the asteroid belt between Mars and Jupiter. They vary in size, from small boulders to objects hundreds of kilometers wide. While asteroids are often referred to as "minor planets," they are much smaller than planets and don't have atmospheres. Some asteroids may even contain valuable minerals like gold and platinum. Though they can pose a threat to Earth, most are harmless, orbiting safely in space without coming close to our planet.</p>
-            <img class="photo1" src="./img/asteroids.jpg" alt="nebulae" />
-            <img class="photo2" src="./img/asteroids1.jpg" alt="nebulae" />
+            <p class="info"> Asteroids are rocky objects that orbit the Sun, primarily in the asteroid belt between Mars and Jupiter. They vary in size from small boulders to objects hundreds of kilometers wide. These space rocks are made of materials left over from the formation of the solar system. Some asteroids contain valuable metals like gold and platinum, which makes them of interest for future exploration. While most asteroids are harmless and orbit safely, larger ones have the potential to pose a threat to Earth if their paths cross with ours.
+Asteroids can sometimes collide with one another, creating smaller fragments that may become new objects in the solar system.
+</p>       
+     <img class="photo1" src="./img/asteroids.jpg" alt="asteroids" />
+            <img class="photo2" src="./img/asteroids1.jpg" alt="asteroids" />
             <p class="trivia">
             Did you know?! <br><br>
 Some asteroids have moons! These "binary asteroids" consist of a large asteroid and a smaller one orbiting around it. One famous example is the asteroid 243 Ida, which has a moon named Dactyl. This discovery helped scientists learn more about the formation of asteroid systems.          </div>
@@ -115,7 +118,7 @@ Some asteroids have moons! These "binary asteroids" consist of a large asteroid 
           <h2>SUPERNOVAE</h2>
           <div id="name" class="content">
             <p class="info">
-            Supernovae are powerful explosions that occur when a star reaches the end of its life cycle. These events release enormous amounts of energy, briefly outshining entire galaxies. There are two main types of supernovae: Type I, caused by the sudden collapse of a white dwarf, and Type II, resulting from the collapse of massive stars. Supernovae are important for the universe’s evolution, as they distribute heavy elements, like gold and iron, into space, which are later incorporated into new stars and planets.
+            Supernovae are powerful explosions that occur when a star reaches the end of its life cycle. These events release enormous amounts of energy, briefly outshining entire galaxies. There are two main types of supernovae: Type I, caused by the sudden collapse of a white dwarf, and Type II, resulting from the collapse of massive stars. Supernovae are important for the universe’s evolution, as they distribute heavy elements, like gold and iron, into space, which are later incorporated into new stars and planets.Supernovae also play a key role in the formation of neutron stars and black holes, which are some of the most fascinating and mysterious objects in the universe.
             </p>
             <img class="photo1" src="./img/supernova1.jpg" alt="supernoave" />
             <img class="photo2" src="./img/supernova.jpg" alt="supernovae" />
@@ -141,6 +144,19 @@ The Perseid meteor shower, visible every August, is one of the brightest and mos
         </div>
       </div>
     `;
+  } else if (content === "home") {
+    cardEl.innerHTML = `
+      <div id="home">
+      <div class="card" id="cosmos">
+          
+ <h1>COSMOS</h1>
+
+
+    `;
   } else {
+    cards(home);
   }
 }
+window.onload = function () {
+  cards("home");
+};
