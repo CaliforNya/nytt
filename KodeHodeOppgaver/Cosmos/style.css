@@ -235,7 +235,7 @@ footer {
     }
 
     .content {
-        grid-row: 2fr 1fr;
+        grid-template-rows: 1fr 0.7fr;
         grid-template-areas: "info info info photo1"
             "photo2 trivia trivia trivia";
 
