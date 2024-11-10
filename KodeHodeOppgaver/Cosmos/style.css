@@ -215,6 +215,10 @@ footer {
         flex-direction: column;
     }
 
+    li {
+        width: 80%;
+    }
+
     .card {
         height: 100%;
         min-height: 70svh;
