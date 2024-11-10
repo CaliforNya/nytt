@@ -10,8 +10,18 @@ body {
     font-family: Rubik, sans-serif;
     cursor: default;
     user-select: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
+html {
+    height: 100%;
+}
+
+main {
+    flex-grow: 1;
+}
 
 h2 {
     padding-left: 20px;
@@ -79,7 +89,7 @@ ul {
 
     background: rgba(10, 40, 31, 0.5);
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-template-columns: 400px 1fr 1fr auto;
     padding: 20px;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "info info info photo1"
@@ -89,8 +99,8 @@ ul {
 
 .photo1 {
     grid-area: photo1;
-
-    height: 640px;
+    height: 600px;
+    width: 400px;
     object-fit: cover;
     border: 2px solid black;
     border-radius: 3%;
@@ -99,9 +109,9 @@ ul {
 
 .photo2 {
     grid-area: photo2;
+    object-fit: cover;
     width: 400px;
     height: 300px;
-    object-fit: cover;
     border: 2px solid black;
     border-radius: 3%;
     overflow: hidden;
@@ -168,14 +178,34 @@ footer {
 }
 
 @media (min-width:2000px) {
+
+
     .card {
-        min-height: 60vh;
-        height: 620px;
+        min-height: 60dvh;
+        height: 80dvh;
+
+    }
+
+    .content {
+        padding: 50px 100px;
+    }
+
+
+    .photo2 {
+        width: 400px;
+        height: 300px;
+        border: none;
+
+        justify-self: center;
+        object-fit: cover;
     }
 }
 
 
-@media (min-width: 786px) and (max-width: 1300px) {
+@media (min-width: 900px) and (max-width: 1200px) {
+
+
+
     .card {
 
         margin-left: auto;
@@ -191,6 +221,7 @@ footer {
 
     #cosmos h1 {
         font-size: 10rem;
+        padding: 280px 0;
     }
 
     body {
@@ -199,15 +230,29 @@ footer {
 
     header {
         padding: 0 10px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
+    .content {
+        grid-row: 2fr 1fr;
+        grid-template-areas: "info info info photo1"
+            "photo2 trivia trivia trivia";
 
+    }
 
+    .photo1 {
+        height: 400px;
+        width: 300px;
+    }
+
+    .photo2 {
+        height: 200px;
+        width: 300px;
+    }
 }
 
-@media (max-width: 786px) {
+@media (max-width: 900px) {
 
     body {
         margin: 0;
@@ -216,6 +261,8 @@ footer {
 
     #cosmos h1 {
         font-size: 4rem;
+        margin: 100px;
+
     }
 
     #title {
@@ -233,8 +280,6 @@ footer {
         padding: 0;
     }
 
-
-
     .card {
 
         margin-left: auto;
@@ -246,18 +291,25 @@ footer {
     .content {
         display: flex;
         flex-direction: column;
-
         margin: 0;
         padding: 0;
 
     }
 
-    .photo1,
+    .photo1 {
+        width: 0;
+        height: 0;
+    }
+
     .photo2 {
-        width: 100%;
+        width: 100svw;
+        height: fit-content;
         border: none;
         padding: 10px;
         margin-right: 10px;
+        justify-self: center;
+        object-fit: cover;
+
 
     }
 
