@@ -124,6 +124,13 @@ fizzbuzz(11);
 //example: factorial(5) = 5 * 4 * 3 * 2 * 1 = 120
 function factorial(n) {
   if (n === 0) return 1;
-  return; /// din kode her
+  let result = 1;
+
+  for (let i = 1; i <= n; i++) {
+    result *= i;
+  }
+  return result;
+
+  /// din kode her
 }
-console.log(factorial(5));
+console.log(factorial(4));
