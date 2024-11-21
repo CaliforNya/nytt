@@ -111,11 +111,19 @@ Fibbonacci(10);
 //11.--------------------------------------------------------------------------------------
 //BONUS!Implement fizzbuzz, if a number is divisible by 3: Fizz, if a number is divisible by 5: Buzz, if the number is divisible by both 3 and 5, FizzBuzz
 // https://www.geeksforgeeks.org/fizz-buzz-implementation/
-function fizzbuzz(number) {
-  number % 3 === 0 && number % 5 === 0 ? console.log(true) : console.log(false);
-}
 
-fizzbuzz(11);
+function fizzbuzz(number) {
+  if (number % 3 === 0 && number % 5 === 0) {
+    console.log("fizzbuzz");
+  } else if (number % 3 === 0) {
+    console.log("fizz");
+  } else if (number % 5 === 0) {
+    console.log("buzz");
+  } else {
+    console.log("neither fizz, nor buzz");
+  }
+}
+fizzbuzz(15);
 
 //12.--------------------------------------------------------------------------------------
 //SUPERBONUS - we have not talked about recursion yet, but here is a fun one to try.
