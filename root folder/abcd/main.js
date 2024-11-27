@@ -200,11 +200,54 @@ console.log(people[0].firstName, people[0]["lastName"]);
 //Print fullName of the second person in the array by calling the method.
 //------------------------------------------------------------------------------------------------------------------------------------------------
 
-const fullName = (i) => {
-  console.log(`${people[i].firstName} ${people[i].lastName}`);
-};
-
-fullName(1);
+let people2 = [
+  {
+    firstName: "Nya",
+    lastName: "Zoldyck",
+    age: 29,
+    employed: true,
+    fullName: function () {
+      console.log(`${this.firstName} ${this.lastName}`);
+    },
+  },
+  {
+    firstName: "Blueberry",
+    lastName: "Muffin",
+    age: 12,
+    employed: false,
+    fullName: function () {
+      console.log(`${this.firstName} ${this.lastName}`);
+    },
+  },
+  {
+    firstName: "Endless",
+    lastName: "Sommer",
+    age: 34,
+    employed: false,
+    fullName: function () {
+      console.log(`${this.firstName} ${this.lastName}`);
+    },
+  },
+  {
+    firstName: "Margarita",
+    lastName: "Spicy",
+    age: 22,
+    employed: false,
+    fullName: function () {
+      console.log(`${this.firstName} ${this.lastName}`);
+    },
+  },
+  {
+    firstName: "Velvet",
+    lastName: "Sky",
+    age: 27,
+    employed: false,
+    fullName: function () {
+      console.log(`${this.firstName} ${this.lastName}`);
+    },
+  },
+];
+people2[1].fullName();
 
 //4. Its the third person's birthday! And their job status changed. Update their age and job status using dot notation.
 //------------------------------------------------------------------------------------------------------------------------------------------------
