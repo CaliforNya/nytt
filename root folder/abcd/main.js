@@ -252,6 +252,7 @@ people2[1].fullName();
 //4. Its the third person's birthday! And their job status changed. Update their age and job status using dot notation.
 //------------------------------------------------------------------------------------------------------------------------------------------------
 people[2].employed = true;
+people[2].age += 1;
 
 console.log(people[2]);
 
