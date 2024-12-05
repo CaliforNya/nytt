@@ -158,167 +158,167 @@
 //1. create an array of 5 person objects, the objhects should contain first name last name, age and job properties, jobb should be a boolean.
 //------------------------------------------------------------------------------------------------------------------------------------------------
 
-let people = [
-  {
-    firstName: "Nya",
-    lastName: "Zoldyck",
-    age: 29,
-    employed: true,
-  },
-  {
-    firstName: "Blueberry",
-    lastName: "Muffin",
-    age: 12,
-    employed: false,
-  },
-  {
-    firstName: "Endless",
-    lastName: "Sommer",
-    age: 34,
-    employed: false,
-  },
-  {
-    firstName: "Margarita",
-    lastName: "Spicy",
-    age: 22,
-    employed: false,
-  },
-  {
-    firstName: "Velvet",
-    lastName: "Sky",
-    age: 27,
-    employed: false,
-  },
-];
-//2. print First and last name of the first person in the array. using dot notation on firstname and bracket notation last name
-//------------------------------------------------------------------------------------------------------------------------------------------------
+// let people = [
+//   {
+//     firstName: "Nya",
+//     lastName: "Zoldyck",
+//     age: 29,
+//     employed: true,
+//   },
+//   {
+//     firstName: "Blueberry",
+//     lastName: "Muffin",
+//     age: 12,
+//     employed: false,
+//   },
+//   {
+//     firstName: "Endless",
+//     lastName: "Sommer",
+//     age: 34,
+//     employed: false,
+//   },
+//   {
+//     firstName: "Margarita",
+//     lastName: "Spicy",
+//     age: 22,
+//     employed: false,
+//   },
+//   {
+//     firstName: "Velvet",
+//     lastName: "Sky",
+//     age: 27,
+//     employed: false,
+//   },
+// ];
+// //2. print First and last name of the first person in the array. using dot notation on firstname and bracket notation last name
+// //------------------------------------------------------------------------------------------------------------------------------------------------
 
-console.log(people[0].firstName, people[0]["lastName"]);
+// console.log(people[0].firstName, people[0]["lastName"]);
 
-//3. That was tiresome.. just so much typing. Lets write a method to that we never need to that again..
-//create a method in every person object that returns first and last name, call it fullName. This can be done manually for each one or with a loop.
-//Print fullName of the second person in the array by calling the method.
-//------------------------------------------------------------------------------------------------------------------------------------------------
+// //3. That was tiresome.. just so much typing. Lets write a method to that we never need to that again..
+// //create a method in every person object that returns first and last name, call it fullName. This can be done manually for each one or with a loop.
+// //Print fullName of the second person in the array by calling the method.
+// //------------------------------------------------------------------------------------------------------------------------------------------------
 
-let people2 = [
-  {
-    firstName: "Nya",
-    lastName: "Zoldyck",
-    age: 29,
-    employed: true,
-    fullName: function () {
-      console.log(`${this.firstName} ${this.lastName}`);
-    },
-  },
-  {
-    firstName: "Blueberry",
-    lastName: "Muffin",
-    age: 12,
-    employed: false,
-    fullName: function () {
-      console.log(`${this.firstName} ${this.lastName}`);
-    },
-  },
-  {
-    firstName: "Endless",
-    lastName: "Sommer",
-    age: 34,
-    employed: false,
-    fullName: function () {
-      console.log(`${this.firstName} ${this.lastName}`);
-    },
-  },
-  {
-    firstName: "Margarita",
-    lastName: "Spicy",
-    age: 22,
-    employed: false,
-    fullName: function () {
-      console.log(`${this.firstName} ${this.lastName}`);
-    },
-  },
-  {
-    firstName: "Velvet",
-    lastName: "Sky",
-    age: 27,
-    employed: false,
-    fullName: function () {
-      console.log(`${this.firstName} ${this.lastName}`);
-    },
-  },
-];
-people2[1].fullName();
+// let people2 = [
+//   {
+//     firstName: "Nya",
+//     lastName: "Zoldyck",
+//     age: 29,
+//     employed: true,
+//     fullName: function () {
+//       console.log(`${this.firstName} ${this.lastName}`);
+//     },
+//   },
+//   {
+//     firstName: "Blueberry",
+//     lastName: "Muffin",
+//     age: 12,
+//     employed: false,
+//     fullName: function () {
+//       console.log(`${this.firstName} ${this.lastName}`);
+//     },
+//   },
+//   {
+//     firstName: "Endless",
+//     lastName: "Sommer",
+//     age: 34,
+//     employed: false,
+//     fullName: function () {
+//       console.log(`${this.firstName} ${this.lastName}`);
+//     },
+//   },
+//   {
+//     firstName: "Margarita",
+//     lastName: "Spicy",
+//     age: 22,
+//     employed: false,
+//     fullName: function () {
+//       console.log(`${this.firstName} ${this.lastName}`);
+//     },
+//   },
+//   {
+//     firstName: "Velvet",
+//     lastName: "Sky",
+//     age: 27,
+//     employed: false,
+//     fullName: function () {
+//       console.log(`${this.firstName} ${this.lastName}`);
+//     },
+//   },
+// ];
+// people2[1].fullName();
 
-//4. Its the third person's birthday! And their job status changed. Update their age and job status using dot notation.
-//------------------------------------------------------------------------------------------------------------------------------------------------
-people[2].employed = true;
-people[2].age += 1;
+// //4. Its the third person's birthday! And their job status changed. Update their age and job status using dot notation.
+// //------------------------------------------------------------------------------------------------------------------------------------------------
+// people[2].employed = true;
+// people[2].age += 1;
 
-console.log(people[2]);
+// console.log(people[2]);
 
-//5. Person three is throwing a giant party! create a function called fotballPubben(). The function should check if the person is over 18, print "party time" if they are and "too young" if they are not. It should also print the name of the person.
-// use a loop to call the function for every person in the array.
-//------------------------------------------------------------------------------------------------------------------------------------------------
-let footballPubben = (arr) => {
-  for (let i = 0; i < arr.length; i++) {
-    arr[i].age >= 18
-      ? console.log(`${arr[i].firstName}: Party Time`)
-      : console.log(`${arr[i].firstName}: Too Young!`);
-  }
-};
+// //5. Person three is throwing a giant party! create a function called fotballPubben(). The function should check if the person is over 18, print "party time" if they are and "too young" if they are not. It should also print the name of the person.
+// // use a loop to call the function for every person in the array.
+// //------------------------------------------------------------------------------------------------------------------------------------------------
+// let footballPubben = (arr) => {
+//   for (let i = 0; i < arr.length; i++) {
+//     arr[i].age >= 18
+//       ? console.log(`${arr[i].firstName}: Party Time`)
+//       : console.log(`${arr[i].firstName}: Too Young!`);
+//   }
+// };
 
-footballPubben(people);
+// footballPubben(people);
 
-//6. It's time for school! Create a function called university. It should take in an person object as well as type of degree (bachelors or masters) as arguments.
-// The function should update age and add two properties called "degree" and "student loan". The value of age, degree and student loan should change depending on what degree
-//was passed into the function. Send one person to uni and print the result.
-//------------------------------------------------------------------------------------------------------------------------------------------------
+// //6. It's time for school! Create a function called university. It should take in an person object as well as type of degree (bachelors or masters) as arguments.
+// // The function should update age and add two properties called "degree" and "student loan". The value of age, degree and student loan should change depending on what degree
+// //was passed into the function. Send one person to uni and print the result.
+// //------------------------------------------------------------------------------------------------------------------------------------------------
 
-let university = (firstName, degree) => {
-  for (let i = 0; i < people.length; i++) {
-    if (people[i].firstName === firstName) {
-      if (degree === "bachelors") {
-        people[i].age += 3;
-        people[i].degree = "bachelors";
-        people[i].studentLoan = 5000;
-      } else if (degree === "masters") {
-        people[i].age += 5;
-        people[i].degree = "masters";
-        people[i].studentLoan = 10000;
-      }
-    }
-  }
-};
-university("Nya", "masters");
-console.log(people[0]);
+// let university = (firstName, degree) => {
+//   for (let i = 0; i < people.length; i++) {
+//     if (people[i].firstName === firstName) {
+//       if (degree === "bachelors") {
+//         people[i].age += 3;
+//         people[i].degree = "bachelors";
+//         people[i].studentLoan = 5000;
+//       } else if (degree === "masters") {
+//         people[i].age += 5;
+//         people[i].degree = "masters";
+//         people[i].studentLoan = 10000;
+//       }
+//     }
+//   }
+// };
+// university("Nya", "masters");
+// console.log(people[0]);
 
-// 7. API TIME!
-// Read the documentation of this dog API: https://dog.ceo/dog-api/documentation/
-// Fetch 4 dogs of the same breed or sub-breed and display them in the DOM
-//feel free to change the ID of the images and/or add css.
-//------------------------------------------------------------------------------------------------------------------------------------------------
-//BONUS!!
-//create a way for you to change the breed of the dogs displayed on your page
-//------------------------------------------------------------------------------------------------------------------------------------------------
+// // 7. API TIME!
+// // Read the documentation of this dog API: https://dog.ceo/dog-api/documentation/
+// // Fetch 4 dogs of the same breed or sub-breed and display them in the DOM
+// //feel free to change the ID of the images and/or add css.
+// //------------------------------------------------------------------------------------------------------------------------------------------------
+// //BONUS!!
+// //create a way for you to change the breed of the dogs displayed on your page
+// //------------------------------------------------------------------------------------------------------------------------------------------------
 
-const container = document.getElementById("container");
-let imges = [];
+// const container = document.getElementById("container");
+// let imges = [];
 
-const doggos = async (breed) => {
-  for (let i = 0; i < 4; i++) {
-    let url = `https://dog.ceo/api/breed/${breed}/images/random`;
-    const response = await fetch(url);
-    const doggy = await response.json();
-    //console.log(doggy.message);
-    imges.push(doggy.message);
-  }
-  console.log(imges);
+// const doggos = async (breed) => {
+//   for (let i = 0; i < 4; i++) {
+//     let url = `https://dog.ceo/api/breed/${breed}/images/random`;
+//     const response = await fetch(url);
+//     const doggy = await response.json();
+//     //console.log(doggy.message);
+//     imges.push(doggy.message);
+//   }
+//   console.log(imges);
 
-  let string = "";
-  for (let i = 0; i < imges.length; i++)
-    string += `<img class="dog-pic" src="${imges[i]}">`;
-  // console.log(string);
-  container.innerHTML = string;
-};
+//   let string = "";
+//   for (let i = 0; i < imges.length; i++)
+//     string += `<img class="dog-pic" src="${imges[i]}">`;
+//   // console.log(string);
+//   container.innerHTML = string;
+// };
 
-doggos("poodle");
+// doggos("poodle");
