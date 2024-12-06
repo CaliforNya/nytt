@@ -23,9 +23,7 @@ async function fetchData() {
   // console.log(combinedArr);
 
   function isSafe(number) {
-    const digits = number.toString().split("").map(Number);
-
-    const [a, b, c, d, e] = digits;
+    const [a, b, c, d, e] = number.toString().split("").map(Number);
 
     if (
       !(
@@ -52,17 +50,16 @@ async function fetchData() {
     return true;
   }
 
-  function countSafeReports(data) {
+  function countSafe(arr) {
     let safeCount = 0;
-    for (const number of data) {
-      if (isSafe(Number(number))) {
-        safeCount++;
-      }
-    }
-    return safeCount;
+    return arr.reduce(
+      (safeCount, number) =>
+        isSafe(Number(number)) ? safeCount + 1 : safeCount,
+      0
+    );
   }
 
-  const result = countSafeReports(combinedArr);
+  const result = countSafe(combinedArr);
   console.log(`safe numbers: ${result}`);
 }
 
