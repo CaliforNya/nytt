@@ -162,7 +162,6 @@ const luksusProdukt = products.some((product) => {
     luksusArray.push(product.name);
     return true;
   }
-  return false;
 });
 
 console.log(luksusArray);
